@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    padding:0;
+    height:50rem;
+    display:flex;
+    flex-direction: column;
+    font-family: fixedsys;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0.1rem;
+    font-size:1.5rem;
+}
+
+li {
+    display: inline;
+    margin-right:3.4rem;
+}
+
+li:hover {
+    background-color: #18af06;
+    cursor:pointer;
+}
+
+header, footer {
+    background-color: #b9aea4;
+}
+
+.main {
+    background-color: #0f00a3;
+    flex:1;
+}
+
+.red-letter {
+    color:#b40b15;
+}
+
+.fas {
+    margin-left:1.5rem;
+    color:#b40b15;
+}
+
+.footer li{
+    margin:0;
+    padding-left:0.5rem;
+}
+
