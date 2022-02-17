@@ -27,6 +27,7 @@ li:hover {
     cursor:pointer;
 }
 
+
 .red {
     color:#b40b15;
 }
@@ -55,3 +56,62 @@ header, footer {
 [contenteditable] {
   outline: 0px solid transparent;
 }
+
+/*drowpdown*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-container{
+    display: none;
+    position: absolute;
+    background-color: #b9aea4;
+    z-index: 1;
+    width:17rem;
+    height:25rem;
+    box-shadow: 20px 20px;  
+  }
+
+  .dropdown-container-inner {
+      margin: 0.5rem 1rem;
+      border: 1px solid black;
+  }
+
+  .dropdown-content-top {
+    border: 1px solid black;
+  }
+
+  .dropdown-content-middle {
+    border: 1px solid black;
+  }
+
+  .dropdown-content-quit {
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .dropdown-container a {
+    color: black;
+    padding: 0.5rem 0.6rem;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-container {
+      display:block;
+  }
+  
+  .move-right {
+      display:flex;
+      justify-content: space-between;
+  }
+
+  a:hover {
+    background-color: #18af06;
+    cursor:pointer;
+ }
+
+ 
