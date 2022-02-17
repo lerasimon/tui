@@ -114,4 +114,14 @@ header, footer {
     cursor:pointer;
  }
 
+ a:hover {
+    background-color: #18af06;
+    cursor:pointer;
+ }
+
+ .dropdown-content-quit:hover {
+    background-color: #18af06;
+    cursor:pointer;
+ }
+
  
