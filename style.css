@@ -109,7 +109,7 @@ header, footer {
       justify-content: space-between;
   }
 
-  a:hover {
+  .move-right:hover {
     background-color: #18af06;
     cursor:pointer;
  }
